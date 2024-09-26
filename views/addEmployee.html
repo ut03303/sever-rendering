@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Employee</title>
+</head>
+<body>
+    <h1>Add Employee</h1>
+    <form action="/employee/add" method="POST">
+        <label>First Name: <input type="text" name="firstname" required></label><br>
+        <label>Last Name: <input type="text" name="lastname" required></label><br>
+        <label>Date of Birth: <input type="date" name="dob" required></label><br>
+        <label>Phone Numbers (comma separated): <input type="text" name="phoneNumbers" required></label><br>
+        <label>Addresses (comma separated): <input type="text" name="addresses" required></label><br>
+        <button type="submit">Add Employee</button>
+    </form>
+</body>
+</html>
